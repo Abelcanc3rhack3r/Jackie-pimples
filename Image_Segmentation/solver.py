@@ -8,7 +8,6 @@ from torch import optim
 from torch.autograd import Variable
 import torch.nn.functional as F
 
-from Image_Segmentation import draw_result
 from evaluation import *
 from network import U_Net,R2U_Net,AttU_Net,R2AttU_Net
 import csv
